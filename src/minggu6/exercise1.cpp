@@ -2,7 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <stb_image.h>
 
-#include <learnopengl/shader_s.h>
+#include <learnopengl/shader_sTexture.h>
 
 #include <iostream>
 
@@ -28,7 +28,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Kelompok 4", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
